@@ -1,0 +1,1161 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color:black;
+  padding:30px;
+  color:white;
+  
+  font-family:'Gill Sans','Gill Sans MT','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    /*font-size: 15pt;*/
+}
+
+.flx{
+  display:flex;
+  
+}
+
+li{ /*a*/
+  text-decoration:none;
+  list-style:none;
+  margin:10px 20px;
+  cursor:pointer;
+}
+
+li:hover{
+  transform:translateY(-5px);
+  transition:.3s;
+  /*background-color:#00A5E4;*/
+}
+
+.nav-links{
+  position:relative;
+  right:30px;
+  
+}
+
+nav{
+  height:60px;
+  
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+.nav-links{/*links-container*/
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  
+  
+}
+
+nav a{
+  height:100%;
+  padding:0 20px;
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+  color:#f0f0f0;
+}
+
+nav a:hover{
+  background-color:#006aff;
+  
+}
+
+nav .home-link{
+  margin-right:auto;
+}
+
+nav svg{
+  fill:f0f0f0;
+}
+
+#sidebar-active{
+  display:none;
+}
+
+.open-sidebar-button, .close-sidebar-button{
+  padding:0 20px;
+  display:none;
+}
+
+
+/* another media tag
+
+@media(max-width:400px){
+  .nav-links{
+    display: none;
+    flex-direction:column;
+    align-items:flex-start;
+    
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:100;
+    width:200px;
+    background-color:#424445;
+    box-shadow:-5px 0 rgba(0,0,0,0.25);
+    
+    
+  }
+  
+  nav a{
+    box-sizing:border-box;
+    height:auto;
+    width:100%;
+    padding:20px 30px;
+    justify-content:flex-start;
+  }
+  
+  .open-sidebar-button, .close-sidebar-button{
+  
+  display:block;
+}
+
+#sidebar-active:checked ~ .nav-links{
+  display:flex;
+ 
+  
+}
+
+*/
+ /*----------------RR car -----------*/
+
+/*
+
+.bg{
+  width:400px;
+ 
+}
+.bg .rrbg{
+  width:400px;
+  position: relative;
+  object-fit:contain; 
+  bottom:-50px;
+  right:0px;
+  left:-50px;
+  z-index:0;
+  
+}
+*/
+
+  /*--------text beside RR car------*/
+  
+  /*
+  .text-content h1 {
+    padding: 10px;
+    font-size: 55px;
+    font-weight: 500;
+    position: absolute;
+    z-index: -100;
+    width: 200px;
+  }
+  
+  .hero{
+   
+    width: 100%;
+    background-diaplay: cover;
+  }
+  
+  
+  
+  
+}*/   /*media tag ends*/
+
+
+
+.logo img{
+  width:60px;
+  object-fit:contain;
+  
+}
+
+/* The home page Starts--------------*/
+.text-content{
+  position: relative;
+  top:20%;
+  
+  
+}
+
+.text-content h1{
+  padding:10px;
+  font-size:55px;
+  font-weight:500;
+  position:absolute;
+  z-index:-100;
+  width:500px;
+}
+
+.span{
+  color:#2A2D4C;
+}
+
+.banner .text-content button{
+  margin-top:150px; /*150px*/
+  background-color:white;
+  padding:10px 20px;
+  border:none;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+.banner .text-content button:hover{
+  color:white;
+  margin-top:150px; /*150px*/
+  background-color: transparent;
+  padding:10px 20px;
+  border:2px solid white;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+.bg img{
+  width:700px;
+  position: relative;
+  object-fit:contain;
+  bottom:-50px;
+  right:-150px;
+  z-index:0;
+  
+}
+
+/*
+.bg img{
+  
+}
+*/
+
+.banner{
+  /*background-color:blue;*/
+  display:flex;
+  flex-wrap:wrap;
+  
+}
+/*Homepage ends--------------------*/
+
+/*Performance Car light blink page starts---------------------------*/
+
+.hero{
+  width:100%;
+  height:50vh;
+  background:url(/pic/bg.jpg);
+  /*background-repeat:no-repeat;*/
+  background-position:center;
+  background-size:cover;
+  
+  display:flex;
+  justify-content:center;
+  
+  
+}
+
+.hero .text1{
+  width:90%;
+  margin:auto;
+  text-shadow: 2px 3px 6px black;
+}
+
+.hero .text1 h4{
+  font-size:40px;
+  color:#fff;
+  font-weight:500;
+  margin-bottom:10px;
+}
+
+.hero .text1 h1{
+  color:#fff;
+  font-size:65px;
+  text-transform:uppercase;
+  line-height:1;
+  margin-bottom:30px;
+}
+
+.hero .text1 h1 span{
+  color:#DD0707;
+  font-size:80px;
+  font-weight:bold;
+}
+
+.hero .text1 p{
+  color:#fff;
+  margin-bottom:25px;
+}
+
+.hero .text1 .btn{
+  padding:10px 30px;
+  background-color:#dd0707;
+  text-transform:uppercase;
+  color:#fff;
+  font-weight:bold;
+  border-radius:30px;
+  border:2px solid #dd0707;
+  text-decoration:none;
+  
+}
+
+.hero .text1 .btn:hover{
+  background-color: transparent ;
+}
+
+/*performance page ends-------------*/
+
+/*about Section Starts outside media element*/
+
+.about__data{
+  
+  margin-left:10px;
+  padding:3px 2px;
+  transition:2s;
+}
+
+.about__data:hover{
+  margin-left:10px;
+  padding:3px 2px;
+  transform:translateX(-310px);
+  
+}
+
+#abt_data1:hover, #abt_img1{
+  background-color:hsla(243, 41%, 0%, 0.51);
+}
+
+
+#abt_data2{
+  margin-right:10px;
+  transition:2s;
+  z-index:10;
+  
+}
+
+#abt_data2:hover{
+  transform:translateX(300px);
+  
+  
+}
+
+#abt_data2:hover{
+  background-color:hsla(219, 50%, 48%, 0.4);
+}
+
+.about__container{
+  row-gap: 6rem;
+  display:flex;
+  
+  
+  
+}
+
+.about__group{
+  position:relative;
+  
+}
+
+.about__img{
+  width:610px;
+  border-radius:.5rem;
+  height:350px
+  
+}
+
+.about__card{
+  width:180px;
+  position:absolute;
+  right:10px;
+  bottom:0.5rem;
+  background-color:hsla(0,0%,100%,.1);
+  backdrop-filter:blur(16px);
+  padding:1rem .75rem;
+  text-align:center;
+  border-radius:1.25rem;
+}
+
+.about__card-title{
+  font-size: 1.25rem;
+  margin-bottom:.5rem;
+  
+  
+}
+
+.about__card-description{
+  font-size:.813rem;
+  
+}
+
+.about__title{
+  text-align:initial;
+  margin-bottom:2rem;
+}
+
+.about__description{
+  margin-bottom:2rem;
+  
+}
+
+.button2{
+  display:inline-block;
+  background-color:hsl(219,69%,56%);
+  color:white;
+  padding:1rem 2rem;
+  border-radius:.25rem;
+  font-size:.938rem;
+  transition:.3s;
+  text-decoration:none;
+  
+}
+
+.button2:hover{
+  background-color:hsla(219,69%,50%,0.4);
+}
+
+.about section{
+  display:flex;
+}
+
+#abt_title{
+  text-align:right;
+}
+
+#abt_desc{
+  text-align:right;
+}
+
+#btn2{
+  text-align:right;
+}
+
+
+
+
+
+
+
+/*Card Components starts*/
+
+.box1 .line1{
+  text-align:center;
+  margin:auto;
+  width:15%;
+  height:100%;
+  background:#FF3636;
+  position: relative;
+  transform:translate(0,55px);
+  
+}
+
+.box1 .top_selections1{
+  background:#000000;
+transform:translate(0,-3px);
+padding-bottom:8px;
+
+}
+
+
+/*
+.line{
+  background:#FFFFFF;
+  text-align:center;
+  margin:auto;
+  width:30%;
+  background:#FF3636;
+  
+}
+.line .top_selections{
+  background:#000000;
+transform:translate(0,-3px);
+}
+*/
+
+h3{
+  text-align:center;
+  font-size:30px;
+  margin:0;
+  padding-top:10px;
+}
+
+a{
+  text-decoration:none;
+}
+
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  justify-content:center;
+  align-items:center;
+  margin:50px 0;
+  
+}
+
+.content{
+  width:20%;
+  margin:15px;
+  box-sizing:border-box;
+  float:left;
+  text-align:center;
+  border-radius:20px;
+  cursor:pointer;
+  padding-top:10px;
+  box-shadow: 0 14px 28px rgba(174, 174, 174, 1), 0 10px 10px rgba(174, 174, 174, 1);
+  transition: .4s;
+  /*background:rgba(255, 255, 255, 1);*/
+  background:#E0E0E0;
+  
+}
+
+.content:hover{
+  box-shadow: 0 3px 6px rgba(221, 221, 221, 1), 0 3px 6px rgba(221, 221, 221, 1);
+  transform:translate(0px, -8px);
+}
+
+.gallery .content img{
+  
+}
+
+.card_img{
+  width:200px;
+  height:200px;
+  text-align:center;
+  margin: 0, auto;
+  
+  /*to bring the images to center*/
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.card_h3{
+  font:#000000;
+  background-color:hsla(0,0%,100%,.2);
+  backdrop-filter:blur(16px);
+}
+.gallery .content h3{
+  color:#666666;
+  
+  font-family: 'Roboto',sans-serif;
+  
+  
+  
+}
+
+.card_para{
+  text-align:center;
+  color:#000000;
+  padding-top:0 8px;
+  
+}
+
+.card_h6{
+  font-size:24px;
+  text-align:center;
+  color:#000000;
+  margin:0;
+}
+
+ul{
+  list-style:none;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:0;
+  
+  
+  
+}
+
+.card_li{
+  padding-top:5px;
+  
+}
+
+.fa{
+  font-size:26px;
+  transition:.4s;
+  margin:3px;
+  
+  
+}
+
+.checked{
+  color:#F49318;
+}
+
+.fa:hover{
+  transform:scale(1.3);
+  transition:.6s;
+  
+  
+}
+
+
+.buy-1, .buy-2, .buy-3, .buy-4{
+  text-align:center;
+  font-size:24px;
+  color:#FCFCFC;
+  width:100%;
+  padding:15px;
+  border: 0;
+  outline: none;
+  cursor:pointer;
+  margin-top:5px;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
+  background:#C53030;
+  
+}
+
+.nextweb{
+  text-decoration:none;
+  color:white;
+}
+
+
+
+.footerContainer .footerContainer{
+  width:100px;
+  padding:70px 30px 20px;
+}
+
+.socialIcons{
+  display:flex;
+  justify-content:center;
+  
+}
+
+
+.socialIcons a{
+  text-decoration:none;
+  padding:10px;
+  background-color:white;
+  margin:10px;
+  border-radius:50%;
+  
+}
+
+
+.socialIcons a i{
+  font-size:2em;
+  color:black;
+  opacity:0.9;
+}
+
+.socialIcons a:hover{
+  background-color:#111;
+  transition:0.5s;
+}
+
+
+.socialIcons a i:hover{
+  color:white;
+  transition:0.5s;
+}
+
+.footerNav{
+  margin:30px 0;
+  
+}
+
+.footerNav ul{
+  display:flex;
+  justify-content:center;
+}
+
+
+
+.footerNav ul li a{
+  color:white;
+  margin:20px;
+  text-decoration:none;
+  font-size:1.3em;
+  opacity:0.7;
+  transition:0.5s;
+  
+  /*background-color:blue;*/
+}
+
+.footerNav ul li a:hover{
+  opacity:1;
+}
+
+.footerBottom{
+  background-color:#000;
+  padding:20px;
+  text-align:center;
+  
+}
+
+.footerBottom p{
+  color:white;
+}
+
+.designer{
+  opacity:0.7;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-weight:400;
+  margin:0px 5;
+}
+
+
+
+
+@media(min-width:980px){
+  
+  .hero{
+  
+    height:100vh;
+  
+  }
+}
+
+
+
+@media(min-width:750px){
+  .content{
+    width:45%;
+    
+  }
+}
+
+@media(max-width:750px){
+  
+  .box1 .line1{
+  width:35%;
+  height:100%;
+  
+  
+}
+  
+  
+  .content{
+    width:100%;
+    
+  }
+  
+  
+  .fa{
+  font-size:22px;
+  margin:0px;
+  
+  }
+  
+  .footerContainer{
+    /*background-color:red;*/
+    
+  }
+  
+  
+  .socialIcons a i{
+  font-size:1.5em;
+}
+
+.buy-1, .buy-2, .buy-3, .buy-4{
+  font-size:19px;
+  
+}
+
+  
+  
+  /*media for footer*/
+  
+  .footerNav{
+    width:50%;
+    height:40%;
+    margin:auto;
+    
+    
+    
+  }
+  .footerNav ul{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    position:relative;
+    margin:auto;
+    
+    /*background-color:yellow;*/
+  }
+  
+  .footerNav ul li{
+    /*background-color:pink;*/
+    width:80%;
+    
+}
+  
+  .footerNav ul li a{
+    
+    font-size:0.9em;
+    
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media tag starts*/
+
+
+@media(max-width:400px){
+  .nav-links{
+    display: none;
+    flex-direction:column;
+    align-items:flex-start;
+    
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:100;
+    width:80%;
+    background-color:#424445;
+    box-shadow:-5px 0 rgba(0,0,0,0.25);
+    
+    
+  }
+  
+  nav a{
+    box-sizing:border-box;
+    height:auto;
+    width:100%;
+    padding:20px 30px;
+    justify-content:flex-start;
+  }
+  
+  .open-sidebar-button, .close-sidebar-button{
+  
+  display:block;
+}
+
+#sidebar-active:checked ~ .nav-links{
+  display:flex;
+ 
+  
+}
+
+ /*----------------RR car -----------*/
+
+.bg{ 
+  width:200px;
+  /*background-color:blue; llll*/
+}
+.bg .rrbg{
+  width:400px;
+  position: relative;
+  object-fit:contain; 
+  bottom:-50px; /*for rr image bottom=-50px;*/
+  right:0px;
+  left:-50px;
+  z-index:0;
+  
+}
+
+  /*--------text beside RR car------*/
+  .text-content h1 {
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    z-index: -100;
+    
+    width: 400px;
+  }
+  
+  .text-content{
+   /* background-color: green;*/
+  }
+  
+  /*second car*/
+  .hero{
+   
+    width:100%;
+    height:200%;
+    
+    /*background-repeat:no-repeat;*/
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    
+    
+  }
+  
+  .hero{
+    background-position-x:-230px;
+  }
+  
+  .hero .text1 h1, .hero .text1 h1 span{
+    font-size:50px;
+  }
+  
+  .hero .text1 .btn{
+    
+  }
+  
+  /*about Section */
+  
+  .about__img{
+    width:310px;
+    border-radius:.5rem;
+    height:250px;
+  }
+  
+  .about__card{
+  width:180px;
+  position:absolute;
+  right:0;
+  bottom:0.5rem;
+  background-color:hsla(0,0%,100%,.1);
+  backdrop-filter:blur(16px);
+  padding:1rem .75rem;
+  text-align:center;
+  border-radius:1.25rem;
+  }
+  .about__container{
+  row-gap: 6rem;
+  display:flex;
+  flex-direction:column;
+  
+}
+
+.about__data{
+  margin:0px;
+  padding:3px 2px;
+}
+
+#abt_data1:hover{
+  /*transform:rotate3d(0,90,0,360deg);*/
+  transform:scale(1.08,1.08);
+  text-shadow:-5px 8px 5px #000000;
+  background-color:hsla(219, 50%, 48%, 0.4);
+}
+
+#abt_data2:hover{
+  transform:none;
+  /*transform:rotate3d(0,90,0,360deg);*/
+  /*transform:skewX(8deg);
+  transform:skewY(8deg);*/
+  transform:scale(1.08,1.08);
+  text-shadow:-5px 8px 5px #000000;
+  
+}
+  
+  
+}/*media tag ends*/
+
+
+
+
+
+
+
+
+
+
+/*
+
+.info-card{
+  width:100%;
+  height:520px;
+  overflow:hidden;
+  padding-right:15vw;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  position:relative;
+}
+
+
+
+info-card .img-container, .info-card two .img-container{
+  
+  
+  position:absolute;
+  left:15%;
+  transform:translateX(-50%);
+  top:-100px;
+  width:700px;
+  height:520px;
+  background-image:url("white_lambo_racing.png");
+  
+  z-index:-100;
+  background-size:cover;
+  
+  
+}
+
+.info-card two .img-container{
+    background-image:url("/pic/lambo.png");
+  
+  
+  background-color: green;
+}
+
+.img-container .row{
+  width:100%;
+  height:200px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+  
+}
+
+.img-container .row .hex{
+  
+  top:2px;
+  left:2px;
+  width:200px;
+  height:200px;
+  background-color:#00000091;
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center;
+  margin-right:20px;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  
+  
+  
+  
+}
+
+
+
+.img-container .row:nth-child(2),
+.img-container .row:nth-child(3){
+  margin-top:-30px;
+  
+}
+
+.content{
+  position:relative;
+}
+
+content .heading{
+  color:#fff;
+  text-transform:uppercase;
+  font-size:80px;
+  margin-bottom:30px;
+  
+}
+
+.content .btn2{
+  opacity:1;
+}
+
+*/
+
+
+
+/* for video
+.vid video{
+  position: relative;
+  width:50%;
+  padding:0px;
+  left:18px;
+  width:500px;
+  height:600%;
+  
+}
+
+.vid .text{
+  
+  font-size:45px;
+  font-weight:500;
+  text-align:left;
+  position: relative;
+  width:50%;
+  padding:10px;
+  margin-left:18px;
+  left:0px;
+}
+
+.vid span{
+  color:#800303;
+}
+
+.vid #NA{
+  font-size:35px;
+  font-weight:500;
+}
+
+
+.vid{
+  position:relative;
+  justify-content:center;
+  display:flex;
+  margin:30px;
+  padding-top:0px;
+  padding-bottom:0px;
+  padding-left:0px;
+  padding-right:0px;
+  background-color:#0B0B11;
+  height:200%;
+}
+
+*/
+
+
+/*
+
+.con{
+  position:relative;
+  width:100px;
+  height:100px;
+  background-color:lightskyblue;
+  animation-name:animate;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes animate{
+  0%{
+    background-color:red;
+    left:0px;
+    top:0px;
+  }
+  25%{
+    background-color:yellow;
+    left:200px;
+    top:0px;
+  }
+  50%{
+    background-color:darkgreen;
+    left:200px;
+    top:200px;
+  }
+  75%{
+    background-color:brown;
+    left:0px;
+    top:200px;
+  }
+  100%{
+    background-color:white;
+    left:0px;
+    top:0px;
+  }
+  
+}
+
+
+*/

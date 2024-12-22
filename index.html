@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>RR</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  
+  <!-- Project -->
+  <header class="flx" id="Home">
+    <div class="logo">
+      <img src="/pic/logo.png" alt="">
+      
+    </div>
+    <nav>
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+       <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+      </label>
+      
+      
+      
+    <div class="nav-links">
+      <label for="sidebar-active" class="close-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+      </label>
+      <li><a class="home-link" href="#Home">Home</a></li>
+      <li><a href="#Hero">About</a></li>
+      <li><a href="#about">Performance</a></li>
+      <li><a href="#gallery">Models</a></li>
+      <li><a href="mailto: ak509667as@gmail.com">Contact Us</a></li>
+
+    </div>
+    </nav>
+  </header>
+  
+  <div class="banner" id="Banner">
+    <div class="text-content">
+      <h1>Made in <span class="span">Your Image</span><br>
+      With Our Lineage</h1>
+      
+      <button onclick="window.location='https://youtu.be/8cUL_EkO7mU?si=0kCncCoT_QEPn8ab';">WATCH THE FLIM</button>
+    </div>
+    
+    <div class="bg">
+      <img src="/pic/rrbg.png" class="rrbg" alt="">
+    </div>
+    
+  </div>
+  <br><br><br>
+  
+  <div class="hero" id="Hero">
+    <div class="text1">
+      <h4>Powerful, Fun and </h4>
+      <h1>Fierce to <br> <span>Drive</span></h1>
+      <p>Real Poise, Real Power, Real Performance.</p>
+      <a href="https://www.rolls-roycemotorcars.com/hyderabad/en_GB/showroom.html" class="btn">book a test ride</a>
+    </div>
+    
+  </div>
+  
+  
+  <script>
+    let heroBg =document.querySelector('.hero');
+    setInterval(() => {
+      heroBg.style.backgroundImage="url(/pic/bg-light.jpg)"
+      
+      setTimeout(() => {
+        heroBg.style.backgroundImage = "url(/pic/bg.jpg)"
+      }, 1000);
+    },2200)
+  </script>
+  
+  
+  <br><br><br><br><br><br>
+  
+  
+  
+  <section class="about section" id="about">
+    <div class="about__container" id="container grid">
+      <div class="about__group">
+        <img src="/photo/about_image4.jpg" alt="" class="about__img">
+        <div class="about__card">
+          <h3 class="about__card-title">2.500+</h3>
+          <p class="about__card-description">
+            Superchargers placed along popular routes
+          </p>
+        </div>
+      </div>
+      <div class="about__data" id="abt_data1">
+        <h2 class="section__title about__title">
+          Machines with <br> <span>Future Technology</span>
+        </h2>
+        
+        <p class="about__description">
+          See the future with high performance electric car produced by renowned brands. They feature futuristic builds and design with new and innovative platform that last a long time
+        </p>
+        
+        <a href="https://www.rolls-roycemotorcars.com/en_GB/bespoke/configure-your-rolls-royce.html" class="button2">Know more</a>
+      </div>
+    </div>
+  </section>
+  
+<br><br><br><br><br><br>
+
+<!--Second About Section-->
+    
+  <section class="about section" id="about">
+    <div class="about__container" id="container grid">
+      
+      
+      <div class="about__data" id="abt_data2">
+        <h2 class="section__title about__title" id="abt_title">
+          Engine &<br> <span> Transmission</span>
+        </h2>
+        
+        <p class="about__description" id="abt_desc">
+          6.7L Twin-Turbocharged & Intercooled V12 Engine · Horsepower: 563 hp · Torque: 664 lb-ft · Transmission: 8-speed automatic
+        </p>
+        
+        <a href="https://www.rolls-roycemotorcars.com/en_GB/bespoke/configure-your-rolls-royce.html" class="button2" id="btn2">Know more</a>
+      </div>
+      
+      <div class="about__group">
+        <img src="/photo/about_image3.jpg" alt="" class="about__img" id="abt_img2">
+        <div class="about__card">
+          <h3 class="about__card-title">900nm</h3>
+          <p class="about__card-description">
+            Max torque: 900 Nm at 1,700 rpm
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <br><br><br><br>
+
+<div class="box1">
+  <div class="line1">.</div>
+  <div class="top_selections1">
+    <h3>Top Selections</h3>
+  </div>
+</div>
+
+
+
+
+      
+  
+  
+  <div class="gallery" id="gallery">
+    
+
+
+    
+    <div class="content">
+      <img src="/pic/CardCar1.png" class="card_img" style="width:110%;">
+      <h3 class="card_h3">Rolls-Royce Phantom</h3>
+      <p class="card_para">6749 cc • 563bhp • V12 Petrol</p>
+      <h6 class="card_h6">₹8.99 - 10.48 Cr</h6>
+      <ul>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star"></i></li>
+      </ul>
+      <button class="buy-1"><b><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/phantom.html" class="nextweb">Place Your Order</a></b></button>
+    </div>
+
+    
+    <div class="content">
+      <img src="/pic/CardCar2.png" class="card_img" style="width:60%;">
+      <h3 class="card_h3">Rolls-Royce Spectre</h3>
+      <p class="card_para">102 kWh • 576.63bhp • 360kW</p>
+      <h6 class="card_h6">₹7.50 Cr</h6>
+      <ul>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star"></i></li>
+      </ul>
+      <button class="buy-2"><b><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/spectre.html" class="nextweb">Place Your Order</a></b></button>
+    </div>
+    
+    
+    
+    <div class="content">
+      <img src="/pic/CardCar3.png" class="card_img" style="width:70%; height:80%;">
+      <h3 class="card_h3">Rolls-Royce Ghost</h3>
+      <p class="card_para">6750 cc • 563bhp • V12</p>
+      <h6 class="card_h6">₹6.95 - 7.95 Cr</h6>
+      <ul>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star"></i></li>
+      </ul>
+      <button class="buy-3"><b><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/ghost.html" class="nextweb">Place Your Order</a></b></button>
+    </div>
+    
+    
+    
+    <div class="content">
+      <img src="/pic/CardCar4.png" class="card_img" style="width:75%; height:70%;">
+      <h3 class="card_h3">Rolls-Royce Cullinan</h3>
+      <p class="card_para">6750 cc • 563bhp • V12</p>
+      <h6 class="card_h6">₹10.50 - 12.25 Cr</h6>
+      <ul>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li class="card_li"><i class="fa fa-star checked"></i></li>
+        <li ><i class="fa fa-star checked"></i></li>
+      </ul>
+      <button class="buy-4"><b><a href="https://www.rolls-roycemotorcars.com/en_GB/showroom/cullinan.html" class="nextweb">Place Your Order</a></b></button>
+    </div>
+    
+    
+    
+  </div>
+  <br><br><br>
+  
+  <footer>
+    <div class="footerContainer">
+      <div class="socialIcons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/SomD007"><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-google-plus"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="footerNav">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Hero">About Us</a></li>
+          <li><a href="#about">Performance</a></li>
+          <li><a href="#gallery">Models</a></li>
+          <li><a href="mailto: ak509667as@gmail.com">Contact Us</a></li>
+        </ul>
+      </div>
+     
+    </div>
+    <div class="footerBottom">
+      <p>CopyRight© 2024 Designed by <span class="designer">Som and Anjali </span>
+      </p>
+    </div>
+  </footer>
+  
+
+
+
+
+
+  <!--
+  
+  
+  
+  
+    
+  <div id="card-area">
+    <div class="wrapper">
+      <div class="box-area">
+        <div class ="box">
+          <img src="" alt="">
+          <div class="overlay">
+            <h3>Mountaineering</h3>
+            <p>this is a paragraph text</p>
+            <a href="#">Book Now</a>
+          </div>
+        </div>
+        
+        <div class ="box">
+          <img src="" alt="">
+          <div class="overlay">
+            <h3>Mountaineering</h3>
+            <p>this is a paragraph text</p>
+            <a href="#">Book Now</a>
+          </div>
+        </div>  
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="info-card">
+    <div class="img-container" id="img-con1">
+      <div class="row">
+        <div class="hex"></div>
+        <div class="hex"></div>
+      </div>
+      <div class="row">
+        <div class="hex"></div>
+        <div class="hex"></div>
+        <div class="hex"></div>
+      </div>
+      <div class="row">
+        <div class="hex"></div>
+        <div class="hex"></div>
+      </div>
+    </div>
+    <div class="content">
+      <h1 class="heading">amazing power</h1>
+      <button class="btn2">Explore</button>
+    </div>
+  </div>
+
+  <div class="info-card two">
+    <div class="img-container" id="img-con2">
+      <div class="row">
+        <div class="hex"></div>
+        <div class="hex"></div>
+      </div>
+      <div class="row">
+        <div class="hex"></div>
+        <div class="hex"></div>
+        <div class="hex"></div>
+      </div>
+      <div class="row">
+        <div class="hex"></div>
+        <div class="hex"></div>
+      </div>
+    </div>
+    <div class="content">
+      <h1 class="heading"><span>aero-dynamic</span>design</h1>
+      <button class="btn2"></button>
+    </div>
+  </div>
+  
+  
+  
+  -->
+  
+  <!-- for video 
+  <div class="vid">
+  <video controls src="/pic/rrvideo.mp4" type="video/mp4" poster="/pic/videothumbnail.jpg"></video>
+  <div class="text"><span>Watch</span> this Out<br>
+  <span id="NA">The New and Improved</span></span>
+  </div>
+  
+  </div>
+  
+  -->
+  
+  
+  
+ <!-- box animation <div class="con"></div>-->
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
